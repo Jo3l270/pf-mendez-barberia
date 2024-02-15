@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,1000&display=swap" rel="stylesheet">
+    <!doctype html>
+    <html lang="en">
+     <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+<!--css-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>doblerrbarber</title>
+
+
+
+
+</head>
+<body>
+
+<div class="container"> <!--futuro posible grid container-->
+
+ <header class="header">
+
+
+  <img class="imagen-logo" src="images/logo-barberia.avif" alt="logo-barberia">
+
+    <h1>doblerrbarber</h1>
+    <nav class="menu">
+
+       <a class="turno" href="index.html#contacto">agenda turno</a>
+    <!--enlaces relativosa a otros apartados de la pagina-->
+  <ul class="menu__navegacion">
+
+   <li class="enlaces"><a href="index.html"> inicio </a></li>
+   <li class="enlaces"> <a href="nosotros.html"> nosotros </a> </li>
+   <li class="enlaces"> <a href="ubicacion.html"> ubicacion </a> </li>
+   <li class="enlaces"> <a href="blog.html"> blog </a> </li>
+   <li class="enlaces" > <a href="nuestros-productos.html"> productos </a> </li>
+   <li class="enlaces"> <a  href=https://www.instagram.com/thebrooklyn_barber> la barberia </a><!--absoluto-->
+   </ul>
+
+  </nav>
+
+  </header>
+
+ <main class="main">
+<!--tabla con servicios-->
+  <p>Cada visita a <strong>Doble RR</strong> es una oportunidad para transformar su estilo y elevar su confianza. Nuestros servicios incluyen </p>
+<ul>
+  <li>cortes de cabello clasicos y modernos</li>
+  <li>afeitado tradicional con toalla caliente</li>
+  <li>arreglo de barba y bigotes</li>
+  <li>tratamientos capilares revitalizantes</li>
+  <li>asesoramientos personalizados en estilo</li>
+  <li>lugar exclusivo</li>
+</ul> 
+
+ </main>
+
+ <section class="section">
+ <p class="section__parrafo">
+  Nuestros barberos son artesanos con tijeras, expertos en las últimas tendencias y respetuosos de los estilos atemporales.
+  Con una mano firme y una visión creativa, garantizamos que saldrá de nuestra barbería sintiéndose y luciendo su mejor versión.
+ </p>
+</section>
+<!--imagenes de la barberia carrousel-->
+  
+
+  <section id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/estilo1.avif" class="d-block w-100" alt="imagen-corte1">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/corte-moderno.jpg" class="d-block w-100" alt="imagen-corte2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/barba1.avif" class="d-block w-100" alt="imagen-corte3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+
+    <p class="parrafo">Disfrute de un ambiente que combina lo mejor de la tradición barbershop con un toque moderno. Nuestro espacio está diseñado para su confort, con asientos de cuero de primera calidad, una atmósfera relajante y una selección de bebidas cortesía de la casa para que disfrute durante su visita.
+      Compromiso con la Excelencia</p>
+
+  </section>
+
+  
+  
+  
+
+
+
+  <!--formularios-->
+<article>
+
+  <form action="form.php" method="post">
+    <label for="nombre y apellido"></label>
+   <input type="text" name="nombre" id="nombre" placeholder="joel mendez">
+  
+
+   
+   <select name="" id="">
+    <option value="">corte</option>
+    <option value="">corte y barba</option>
+    <option value="">tratamientos capilares</option>
+    <option value="">asesoramientos</option>
+   </select>
+ 
+   <p class="border1">dejanos tu comentario</p>
+   <textarea name="" id="" cols="30" rows="10">
+
+   
+
+
+   </textarea>
+
+   <p>acepto terminos y condiciones</p>
+
+   <input type="checkbox" name="" id="">
+
+     
+   
+      <input class="boton" type="submit" value="enviar">
+
+      <!--contacto-->
+   <p id="contacto"> 
+     Estamos listos para darle la bienvenida y proporcionarle una experiencia inigualable.
+     Reserve su cita hoy mismo a través de nuestro wpp o llamando al 1139556061.
+     Asegure su lugar en la silla de un experto y descubra por qué <strong>Doble RR</strong> es un punto de referencia en la ciudad para caballeros distinguidos.
+     Para nuestros nuevos clientes, ofrecemos un veinte porciento de descuento en su primer servicio.
+     Simplemente mencione este anuncio al momento de su reserva.
+     En <strong>Doble RR</strong>, no solo cambiamos looks, perfeccionamos estilos de vida. ¡Esperamos verle pronto!
+
+   </p>
+   
+
+
+
+  </form>
+  </article>
+
+ 
+
+
+
+
+   <footer class="footer">
+    
+    <img class="imagen-logo" src="images/logo-barberia.avif" alt="logo-barberia">
+
+    <h2>doblerrbarber</h2>
+    <nav >
+
+       <a href="#contacto">agenda turno</a>
+    <!--enlaces relativosa a otros apartados de la pagina-->
+  <ul class="menu-navegacion">
+
+   <li><a href="index.html">inicio</a></li>
+   <li> <a href="nosotros.html">nosotros</a> </li>
+   <li> <a href="ubicacion.html">ubicacion</a> </li>
+   <li> <a href="blog.html">blog</a> </li>
+   <li> <a href="nuestros-productos.html">productos</a> </li>
+    <li> <a href=https://www.instagram.com/thebrooklyn_barber/">la barberia </a> </li> <!--absoluto-->
+   
+  </ul>
+
+  </nav>
+        
+        
+        
+  </footer>
+
+</div>       
+<!--bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+</html>
