@@ -3,14 +3,14 @@
   *{font-family: 'Nunito Sans', sans-serif; font-weight: 500; color: #6e6b6b;
     font-size: 15px;}
     /*heaader y footer*/
-header 
-{background-image: url(images/barberia\ 3.avif);background-repeat: no-repeat;background-size: cover;background-position: center;}
-.imagen-logo{height: 100;width: 100px; }
-footer{background-image: url(images/fonod-barber1.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
-.imagen-logo{height: 100;width: 100px; grid-area: footer;}
+    header 
+    {background-image: url(images/barberia\ 3.avif);background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .imagen-logo{height: 100;width: 100px; }
+    footer{background-image: url(images/fonod-barber1.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .imagen-logo{height: 100;width: 100px;}
  /*nav*/
-.menu-navegacion{display:flex ; flex-direction: row; align-items: baseline;margin:0.8rem;text-decoration: none; font-size:  50px;}
-.menu-navegacion {color: #808080;}
+.menu{display:flex ; flex-direction: row; align-items: baseline;margin:0.8rem;text-decoration: none; font-size:  50px;}
+.menu {color: #808080;}
 /*body*/
 body{background-color: #000000;}
    body ul li {list-style: none; padding:3px ;}
@@ -24,6 +24,6 @@ body{background-color: #000000;}
  .boton{color: #808080;}
 .boton:hover{color: #b2cfed;}
 /*bs*/
-.d-block{height: 500px;}
+d-block{height: 300px;}
 
  
