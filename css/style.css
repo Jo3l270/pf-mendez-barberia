@@ -3,18 +3,17 @@
   *{font-family: 'Nunito Sans', sans-serif; font-weight: 500; color: #6e6b6b;
     font-size: 15px;}
     /*heaader y footer*/
-    header 
-    {background-image: url(images/barberia\ 3.avif);background-repeat: no-repeat;background-size: cover;background-position: center;}
-    .imagen-logo{height: 100;width: 100px; }
+    
+    .container {background-image: url(../images/barberia\ 3.avif) ;background-repeat: no-repeat;background-size: cover;background-position: center;}
     footer{background-image: url(images/fonod-barber1.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
-    .imagen-logo{height: 100;width: 100px;}
+    .logo-barberia{height: 100px ;width: 100px;}
  /*nav*/
-.menu{display:flex ; flex-direction: row; align-items: baseline;margin:0.8rem;text-decoration: none; font-size:  50px;}
-.menu {color: #808080;}
+.menu-navegacion{display:flex ; flex-direction: row; align-items: baseline;margin:0.8rem;text-decoration: none; font-size:  50px;}
+.menu-navegacion{color: #808080;}
 /*body*/
 body{background-color: #000000;}
    body ul li {list-style: none; padding:3px ;}
-.parrafo{ text-decoration-line:underline ;}
+.parrafo{ text-decoration-line:underline ;} 
 #imagen-salon{ height: 500px;width: 80% ;}
 #ubicacion{height: 300px;width: 70%;}
 .productos {display: flex;}
