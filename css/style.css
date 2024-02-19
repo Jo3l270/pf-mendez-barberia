@@ -4,9 +4,9 @@
     font-size: 15px;}
     /*header y footer*/
     
-    .container {background-image: url(../images/barberia\ 3.avif) ;background-repeat: no-repeat;background-size: cover;background-position: center;}
-    footer{background-image: url(../images/barberia\ 3.avif);background-repeat: no-repeat;background-size: cover;background-position: center;}
-    #imagen-logo{height: 100px ;width: 100px;}
+    header {background-image: url("../images/barberia 3.avif");background-repeat: no-repeat;background-size: cover;background-position: center;}
+    footer{background-image: url("../images/barberia 3.avif");background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .imagen-logo{height: 100px ;width: 100px;}
  /*nav*/
 .menu-navegacion{display:flex ; flex-direction: row; align-items: baseline;margin:0.8rem;text-decoration: none; font-size:  50px;}
 .menu-navegacion{color: #808080;}
@@ -17,10 +17,10 @@ body{background-color: #000000;}
 #imagen-salon{ height: 500px;width: 80% ;}
 #ubicacion{height: 300px;width: 70%;}
 .productos {display: flex;}
-.imagen-producto{ height: 300px ; width: 300px;}
+
 
 /*pseudoclase*/
  .boton{color: #808080;}
 .boton:hover{color: #b2cfed;}
 /*bs*/
-d-block{height: 300px;}
+
